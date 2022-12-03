@@ -1,4 +1,4 @@
 FROM ngnix.latest
 RUN mkdir APP
-WORDIR APP
+workdir APP
 RUN port 8080
